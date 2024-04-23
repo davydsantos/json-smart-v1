@@ -120,7 +120,8 @@ public class ParseException extends Exception {
 			sb.append(unexpectedObject);
 			sb.append(" at position ");
 			sb.append(position);
-			sb.append(".");	} else {
+			sb.append(".");
+		} else {
 			sb.append("Unkown error at position ");
 			sb.append(position);
 			sb.append(".");
