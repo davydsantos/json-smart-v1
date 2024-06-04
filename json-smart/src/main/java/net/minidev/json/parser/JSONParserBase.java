@@ -42,7 +42,7 @@ abstract class JSONParserBase {
 	/**
 	 * hard coded maximal depth for JSON parsing
 	 */
-	public final static int MAX_DEPTH = 400;
+	public static int MAX_DEPTH = 400;
 
 	protected int depth = 0;
 	public final static byte EOI = 0x1A;
